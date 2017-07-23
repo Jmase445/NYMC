@@ -1,0 +1,107 @@
+/*  Not Your Moms Creations
+    Author: Jonathan Mason
+    Date:   7/22/17
+
+    Filename: NYMC.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 2;
+   max-width: 960px;
+   background: maroon;
+   margin: 30 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+/* container */
+#container {
+   background: rgb(153,0,153);
+}
+
+/* page header */
+header {
+   background: rgb(153,0,153);
+   width: 100%;
+   font-family:  cursive;
+   color: rgb(13,177,75);
+   font-size: 84px;
+   text-align: right;
+   padding-right: 320px;
+   position: relative;
+}
+
+nav {
+   background: maroon;
+   width: 100%;
+   font-size: 16px;
+   margin-left: px;
+}
+
+
+nav ul {
+   margin-left: px;
+   text-align: center;
+   background: maroon;
+   margin-right: 20
+   
+}
+p {
+	margin: 40;
+	text-align: center;
+}
+nav ul li {
+   display: inline-block;
+   padding: 10px 15px;
+   background: rgb(128,128,128);
+   -moz-border-radius-topleft: 7px;
+   -moz-border-radius-topright: 7px;
+   -webkit-border-top-left-radius: 7px;
+   -webkit-border-top-right-radius: 7px;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+   margin-left: 25px;
+}
+
+nav ul #currentpage {
+   background: rgb(0,190,90);
+}
+
+h1 {
+	margin: 60;
+   text-align: center;
+}
